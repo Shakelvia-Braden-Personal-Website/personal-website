@@ -1,10 +1,50 @@
 body {
     margin: 0px;
+    background-color: #fefae0;
 }
 
-/* container for navigation bar*/
+/* nav bar */
 #nav-icons {
-    list-style: none;
     display:flex;
     justify-content: space-around;
+    background-color: #fefae0;
+    margin: 1rem;
+    padding: 20px;
+    list-style: none;
+}
+
+li {
+    color: #283618;
+}
+
+a:link {
+    text-decoration: solid black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* styling for the main body of the about section */
+div {
+    margin:auto;
+    padding: 1rem;
+    background-color: #DDA15E;
+    height: 600px;
+    width: 75%;
+
+}
+
+#first-line {
+    color: #283618;
+}
+
+#second-line {
+    color: #606C38;
+}
+
+#first-line,
+#second-line {
+    text-align:center;
 }
