@@ -27,11 +27,11 @@ a:visited {
 }
 
 /* styling for the main body of the about section */
-div {
+.description {
     margin:auto;
     padding: 1rem;
     background-color: #DDA15E;
-    height: 600px;
+    height: auto;
     width: 75%;
 
 }
@@ -47,4 +47,41 @@ div {
 #first-line,
 #second-line {
     text-align:center;
+}
+
+.about-first {
+    text-align: center;
+}
+
+img {
+    height: 300px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.portfolio-header {
+    text-align: center;
+}
+
+.portfolio-space {
+    background-color: white;
+    border: solid black;
+    height: 200px;
+    width: auto;
+    margin: 10px;
+}
+
+.portfolio {
+    flex-direction: column;
+    padding: 15px;
+}
+
+.placeholder {
+    /* text-align: center;
+    margin: auto; */
+    text-align: center;
+vertical-align: middle;
+line-height: 150px;
 }
